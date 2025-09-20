@@ -1,1 +1,39 @@
+/* इसे अपनी style.css फाइल में डालें */
+form {
+  background-color: #f4f4f4;
+  padding: 25px;
+  border-radius: 8px;
+  max-width: 500px; /* फॉर्म की अधिकतम चौड़ाई */
+  margin: 40px auto; /* पेज के सेंटर में लाने के लिए */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
 
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input[type=email], input[type=tel] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* पैडिंग को चौड़ाई में शामिल करने के लिए */
+}
+
+button[type=submit] {
+  width: 100%;
+  background-color: #4CAF50; /* हरा रंग */
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type=submit]:hover {
+  background-color: #45a049; /* थोड़ा गहरा हरा */
+}
